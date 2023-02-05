@@ -19,14 +19,14 @@ importers:
       less: 4.1.3
       postcss: 8.4.21
       prettier: 2.8.3
-      rollup: 3.13.0
+      rollup: 3.14.0
       terser: 5.16.3
       typescript: 4.9.5
       vite: 4.1.1
       vite-plugin-dts: 1.7.2
       vite-tsconfig-paths: 4.0.5
     devDependencies:
-      '@rollup/plugin-dynamic-import-vars': 2.0.3_rollup@3.13.0
+      '@rollup/plugin-dynamic-import-vars': 2.0.3_rollup@3.14.0
       '@types/node': 18.11.18
       '@typescript-eslint/eslint-plugin': 5.50.0_go4drrxstycfikanvu45pi4vgq
       '@typescript-eslint/parser': 5.50.0_4vsywjlpuriuw3tl5oq6zy5a64
@@ -41,11 +41,11 @@ importers:
       less: 4.1.3
       postcss: 8.4.21
       prettier: 2.8.3
-      rollup: 3.13.0
+      rollup: 3.14.0
       terser: 5.16.3
       typescript: 4.9.5
       vite: 4.1.1_msajlbbxjviigfplqruyv6ffli
-      vite-plugin-dts: 1.7.2_i4b57nvzb7pova5fmk4xblqr2q
+      vite-plugin-dts: 1.7.2_kcx4qy5oqjvpe6d6gc5ihhckmm
       vite-tsconfig-paths: 4.0.5_typescript@4.9.5
 
   packages/artalk:
@@ -775,7 +775,7 @@ packages:
       tslib: 2.5.0
     dev: true
 
-  /@rollup/plugin-dynamic-import-vars/2.0.3_rollup@3.13.0:
+  /@rollup/plugin-dynamic-import-vars/2.0.3_rollup@3.14.0:
     resolution: {integrity: sha512-0zQV0TDDewilU+7ZLmwc0u44SkeRxSxMdINBuX5isrQGJ6EdTjVL1TcnOZ9In99byaSGAQnHmSFw+6hm0E/jrw==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
@@ -784,11 +784,11 @@ packages:
       rollup:
         optional: true
     dependencies:
-      '@rollup/pluginutils': 5.0.2_rollup@3.13.0
+      '@rollup/pluginutils': 5.0.2_rollup@3.14.0
       estree-walker: 2.0.2
       fast-glob: 3.2.12
       magic-string: 0.27.0
-      rollup: 3.13.0
+      rollup: 3.14.0
     dev: true
 
   /@rollup/pluginutils/5.0.2:
@@ -805,7 +805,7 @@ packages:
       picomatch: 2.3.1
     dev: true
 
-  /@rollup/pluginutils/5.0.2_rollup@3.13.0:
+  /@rollup/pluginutils/5.0.2_rollup@3.14.0:
     resolution: {integrity: sha512-pTd9rIsP92h+B6wWwFbW8RkZv4hiR/xKsqre4SIuAOaOEQRxi0lqLke9k2/7WegC85GgUs9pjmOjCUi3In4vwA==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
@@ -817,7 +817,7 @@ packages:
       '@types/estree': 1.0.0
       estree-walker: 2.0.2
       picomatch: 2.3.1
-      rollup: 3.13.0
+      rollup: 3.14.0
     dev: true
 
   /@rushstack/node-core-library/3.55.0_@types+node@18.11.18:
@@ -3256,6 +3256,14 @@ packages:
       fsevents: 2.3.2
     dev: true
 
+  /rollup/3.14.0:
+    resolution: {integrity: sha512-o23sdgCLcLSe3zIplT9nQ1+r97okuaiR+vmAPZPTDYB7/f3tgWIYNyiQveMsZwshBT0is4eGax/HH83Q7CG+/Q==}
+    engines: {node: '>=14.18.0', npm: '>=8.0.0'}
+    hasBin: true
+    optionalDependencies:
+      fsevents: 2.3.2
+    dev: true
+
   /run-parallel/1.2.0:
     resolution: {integrity: sha512-5l4VyZR86LZ/lDxZTR6jqL8AFE2S0IFLMP26AbjsLVADxHdhB/c0GUsH+y39UfCi3dzz8OlQuPmnaJOMoDHQBA==}
     dependencies:
@@ -3762,14 +3770,14 @@ packages:
     engines: {node: '>= 0.10'}
     dev: true
 
-  /vite-plugin-dts/1.7.2_i4b57nvzb7pova5fmk4xblqr2q:
+  /vite-plugin-dts/1.7.2_kcx4qy5oqjvpe6d6gc5ihhckmm:
     resolution: {integrity: sha512-55Jwfv6n8gAlRSVGCpIY13TCqadtaKex9d2mCbaSxMFAU06suMDsFhIch1x55eptpC2RpeiresqbTjhN2HSEtQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       vite: '>=2.9.0'
     dependencies:
       '@microsoft/api-extractor': 7.34.2_@types+node@18.11.18
-      '@rollup/pluginutils': 5.0.2_rollup@3.13.0
+      '@rollup/pluginutils': 5.0.2_rollup@3.14.0
       '@rushstack/node-core-library': 3.55.0_@types+node@18.11.18
       debug: 4.3.4
       fast-glob: 3.2.12
